@@ -1,9 +1,8 @@
 import os
-from flask import flask
+from flask import Flask
 from flask import render_template
 import socket
 import random
-import os
 
 app = Flask(__name__)
 
